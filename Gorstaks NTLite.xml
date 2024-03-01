@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>02/29/2024 13:19</Date>
+	<AppInfo>
+		<Version>1.5.0.5855</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Home 64-bit - Client 10.0.22621.1 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22621.1 (en-US)</Version>
+		<GUID>{E88FA16A-6B90-46EF-AECE-77A6D15AAEBE}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>assembly.net 'NET sklop predmemorije'</c>
+		<c>driver_wvmgid.inf</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_ext.inf</c>
+		<c>driver_wvmic_guestinterface.inf</c>
+		<c>driver_wvmic_vss.inf</c>
+		<c>driver_xinputhid.inf</c>
+		<c>firstlogonanim 'Animacija kod prvog logiranja'</c>
+		<c>hwsupport_telephony 'Telefonija'</c>
+		<c>iscsi 'iSCSI Initiator'</c>
+		<c>onedrive 'OneDrive (SkyDrive) - Desktop'</c>
+		<c>phonesvc 'Phone Service'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers></AddDrivers>
+	</Drivers>
+	<Unattended mode="0">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 11 Pro</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
+				<Tweak name="FlightedFeatures\ImmersiveContextMenu">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="Advanced\LaunchTo">1</Tweak>
+				<Tweak name="Advanced\SharingWizardOn">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\HideDrivesWithNoMedia">1</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="System\AllowLocation">1</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">3</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\EnableLinkedConnections">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\FilterAdministratorToken">1</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorAdmin">2</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Windows">
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="Configuration\DisableResetbase">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="gpsvc\gpsvc">4</Tweak>
+				<Tweak name="PolicyAgent\PolicyAgent">2</Tweak>
+				<Tweak name="WpnService\WpnService">4</Tweak>
+				<Tweak name="WpnUserService\WpnUserService">4</Tweak>
+				<Tweak name="PushToInstall\PushToInstall">4</Tweak>
+				<Tweak name="LanmanWorkstation\LanmanWorkstation">3</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices>
+			<TweakGroup name="drivers">
+				<Tweak name="Beep\Beep">4</Tweak>
+			</TweakGroup>
+		</ExtraServices>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>true</CleanHotfixedLeftovers>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Placeholder">
+				<Index>0</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry></Registry>
+</Preset>
