@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>03/08/2024 14:04:44</Date>
+	<AppInfo>
+		<Version>2023.12.9552</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 IoT Enterprise LTSC 2021 21H2 x64 - 10.0.19044.1288 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.1288 (en-US)</Version>
+		<GUID>{5DDBA092-BDBB-44A9-BB33-B675FAACE463}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
+		<c>appv 'Application Virtualization (App-V)'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
+		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
+		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>homegroup</c>
+		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
+		<c>hypervguest 'Hyper-V Integration Services'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
+		<c>langime 'Input Method Editor (IME)'</c>
+		<c>langimejp 'Japanese (IME)'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>lxss 'Windows Subsystem for Linux'</c>
+		<c>mediacodec 'Windows Media Codecs'</c>
+		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
+		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
+		<c>microsoft.asynctextservice 'AsyncTextService'</c>
+		<c>microsoft.creddialoghost 'Credential Dialog'</c>
+		<c>microsoft.ecapp 'Eye Control'</c>
+		<c>microsoft.lockapp 'Windows Default Lock Screen'</c>
+		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
+		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
+		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
+		<c>microsoft.windows.oobenetworkconnectionflow 'Network Connection Flow'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
+		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
+		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
+		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_location 'Location notifications'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>ncsiuwpapp 'Network Connectivity Status Indicator (NCSI)'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>photoviewer 'Photo Viewer'</c>
+		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
+		<c>powershell32 'PowerShell - 32 bit'</c>
+		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
+		<c>remotefx</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
+		<c>search 'Windows Search (Support)'</c>
+		<c>sensorservice 'Sensors - Service'</c>
+		<c>sharemediacpl 'Share Media Control Panel'</c>
+		<c>smbdirect 'SMB Direct (RDMA)'</c>
+		<c>snippingtool 'Snipping Tool'</c>
+		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>stici 'Still Image Class Installer'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>tabletpc 'Tablet PC'</c>
+		<c>textprediction 'Text prediction'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>wallet 'Wallet Service'</c>
+		<c>wallpaperdefault 'Wallpaper (Default)'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>windows.cbspreview 'Windows Barcode Preview'</c>
+		<c>windows.printdialog 'PrintDialog'</c>
+		<c>windowstogo 'Windows To Go'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>xbox 'Xbox - Core'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Scanning</Feature>
+			<Feature enabled="no">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="no">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
+		<Feature name="DirectPlay">true</Feature>
+		<Feature name="LegacyComponents">true</Feature>
+	</Features>
+	<Packages></Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers showHidden="false"></Drivers>
+	<Unattended mode="0">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>2</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+		<OptimizeAppX>false</OptimizeAppX>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
