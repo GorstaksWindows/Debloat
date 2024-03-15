@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.9.1.0</Version>
-  <Date>6.3.2024. 11:41:11</Date>
+  <Date>3/15/2024 8:08:19 PM</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -14,12 +14,12 @@
     <Element Category="Appearance" Name="Shutdown (Hybrid)" Selected="false" Value="" />
     <Element Category="Appearance" Name="Activate Theme Support" Selected="true" Value="" />
     <Element Category="Appearance" Name="WinReducer Theme Pack" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Background - Setup Screen" Selected="true" Value="E:\Pictures\Wallpaper\img19.bmp" />
+    <Element Category="Appearance" Name="Background - Setup Screen" Selected="false" Value="" />
     <Element Category="Appearance" Name="Background - Setup Screen Window" Selected="false" Value="" />
     <Element Category="Appearance" Name="Background - Lockscreen" Selected="false" Value="" />
     <Element Category="Appearance" Name="Background - Logo (System CPL)" Selected="false" Value="" />
     <Element Category="Appearance" Name="Background - Picture Password" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Background - Desktop Wallpaper" Selected="true" Value="E:\Pictures\Wallpaper\img19.jpg" />
+    <Element Category="Appearance" Name="Background - Desktop Wallpaper" Selected="false" Value="" />
     <Element Category="Appearance" Name="Cursor - Arrow" Selected="false" Value="" />
     <Element Category="Appearance" Name="Cursor - Busy" Selected="false" Value="" />
     <Element Category="Appearance" Name="Cursor - Cross" Selected="false" Value="" />
@@ -420,7 +420,7 @@
     <Element Category="Remove - Drivers" Name="Storage - AMD Sata Controller" Selected="false" />
     <Element Category="Remove - Drivers" Name="Storage - Chelsio iSCSI Controller" Selected="true" />
     <Element Category="Remove - Drivers" Name="Storage - DELL RAID Controller" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Storage - HP Smart Array SAS and SATA Controller" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Storage - HP Smart Array SAS and SATA Controller" Selected="true" />
     <Element Category="Remove - Drivers" Name="Storage - Intel SATA and RAID Controller" Selected="false" />
     <Element Category="Remove - Drivers" Name="Storage - Intel QuickData Controller" Selected="true" />
     <Element Category="Remove - Drivers" Name="Storage - LSI RAID Controller" Selected="true" />
@@ -1624,9 +1624,9 @@
     <Element Category="System" Name="Folders - Videos" Selected="false" Value="" />
     <Element Category="System" Name="Folders - Saved Games" Selected="false" Value="" />
     <Element Category="System" Name="Folders - Searches" Selected="false" Value="" />
-    <Element Category="System" Name="Internet Explorer Temporary Folder" Selected="true" Value="C:\Temp" />
-    <Element Category="System" Name="Local Temporary Folder" Selected="true" Value="C:\Temp" />
-    <Element Category="System" Name="Windows Temporary Folder" Selected="true" Value="C:\Temp" />
+    <Element Category="System" Name="Internet Explorer Temporary Folder" Selected="false" Value="" />
+    <Element Category="System" Name="Local Temporary Folder" Selected="false" Value="" />
+    <Element Category="System" Name="Windows Temporary Folder" Selected="false" Value="" />
     <Element Category="System" Name="OEM Prepared Folder" Selected="false" Value="" />
     <Element Category="System" Name="OOBE Configuration" Selected="false" Value="" />
     <Element Category="System" Name="WinReducer Registry Integrator" Selected="false" Value="" />
