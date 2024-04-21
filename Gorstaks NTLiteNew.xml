@@ -59,15 +59,12 @@
 		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
 		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
 		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
-		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
 		<c>mobilepc</c>
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_sensors 'Sensors'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
 		<c>ncsiuwpapp 'Network Connectivity Status Indicator (NCSI)'</c>
 		<c>peertopeer 'Peer Networking'</c>
-		<c>photoviewer 'Photo Viewer'</c>
-		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>powershell32 'PowerShell - 32 bit'</c>
 		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
 		<c>printtopdf 'Print to PDF'</c>
@@ -76,7 +73,6 @@
 		<c>remotefx</c>
 		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>rotationmanager 'Auto-Rotation Manager'</c>
-		<c>search 'Windows Search (Support)'</c>
 		<c>sensorservice 'Sensors - Service'</c>
 		<c>sharemediacpl 'Share Media Control Panel'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
@@ -88,15 +84,12 @@
 		<c>textprediction 'Text prediction'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>wallet 'Wallet Service'</c>
-		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
-		<c>webcamexperience 'Webcam Experience'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.printdialog 'PrintDialog'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
-		<c>xbox 'Xbox - Core'</c>
-	</RemoveComponents>
+		</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
 			<Feature enabled="no">AppGuard</Feature>
