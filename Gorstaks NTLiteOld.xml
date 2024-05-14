@@ -1,85 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>02/29/2024 13:19</Date>
+	<Date>05/14/2024 06:45</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Home 64-bit - Client 10.0.22621.1 (en-US) - en-US</Host>
+		<Host>Windows 10 Pro 64-bit - Client 10.0.22621.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22621.1 (en-US)</Version>
-		<GUID>{E88FA16A-6B90-46EF-AECE-77A6D15AAEBE}</GUID>
+		<Version mode="offline">Windows 10 Pro 64-bit - Client 10.0.22621.1 (en-US)</Version>
+		<GUID>{7AC749A6-729F-4532-B0BA-968E103E7DBA}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>actioncenter 'Akcijski centar'</c>
 		<c>assembly.net 'NET sklop predmemorije'</c>
-		<c>containers</c>
-		<c>dashost 'Device Association Service'</c>
-		<c>directaccess 'Direct Access Connection'</c>
-		<c>domainclientssvc 'IPsec Policy Agent'</c>
-		<c>driver_bth.inf</c>
-		<c>driver_bthlcpen.inf</c>
-		<c>driver_bthleenum.inf</c>
-		<c>driver_bthmtpenum.inf</c>
-		<c>driver_bthpan.inf</c>
-		<c>driver_bthprint.inf</c>
-		<c>driver_bthspp.inf</c>
-		<c>driver_c_bluetooth.inf</c>
-		<c>driver_c_smartcard.inf</c>
-		<c>driver_c_smartcardfilter.inf</c>
-		<c>driver_c_smartcardreader.inf</c>
-		<c>driver_c_volsnap.inf</c>
-		<c>driver_hidbth.inf</c>
-		<c>driver_hidbthle.inf</c>
-		<c>driver_mbtr8897w81x64.inf</c>
-		<c>driver_mdmbtmdm.inf</c>
-		<c>driver_microsoft_bluetooth_avrcptransport.inf</c>
-		<c>driver_msclmd.inf</c>
-		<c>driver_scrawpdo.inf</c>
-		<c>driver_scunknown.inf</c>
-		<c>driver_tdibth.inf</c>
-		<c>driver_tpmvsc.inf</c>
-		<c>driver_usbcciddriver.inf</c>
-		<c>driver_volsnap.inf</c>
-		<c>driver_wudfusbcciddriver.inf</c>
 		<c>driver_xinputhid.inf</c>
 		<c>firstlogonanim 'Animacija kod prvog logiranja'</c>
-		<c>hwsupport_bluetooth 'Bluetooth'</c>
-		<c>hwsupport_smartcard 'Smartcard'</c>
 		<c>hwsupport_telephony 'Telefonija'</c>
-		<c>ias 'Internet Authentication Service (IAS)'</c>
-		<c>ikeext 'IKE and AuthIP IPsec Keying Modules'</c>
-		<c>iphelper 'Internet Protocol Helper (IP Helper)'</c>
-		<c>isolatedusermode 'Isolated user mode (IUM)'</c>
-		<c>legacycomponents 'Legacy komponente'</c>
-		<c>manifests 'Windows Component Database'</c>
-		<c>Microsoft.AAD.BrokerPlugin 'AAD.BrokerPlugin'</c>
-		<c>netframework3 '.NET Framework 2.0, 3.0 and 3.5'</c>
-		<c>netframework3wcf 'Windows Communication Foundation (WCF) 3'</c>
-		<c>netframework4wpf 'Windows Presentation Foundation'</c>
-		<c>netframework4wpfcore 'Windows Presentation Foundation (Core)'</c>
-		<c>netframeworkaspnet4 'ASP.NET 4.7'</c>
+		<c>iscsi 'iSCSI Initiator'</c>
 		<c>onedrive 'OneDrive (SkyDrive) - Desktop'</c>
 		<c>phonesvc 'Phone Service'</c>
-		<c>provisioning 'Windows Provisioning'</c>
-		<c>pushnotifications 'Windows Push Notifications Service (WNS)'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
-		<c>rascmd 'Remote Access Service Client Tools'</c>
-		<c>rasmans 'Konekcijski manager daljinskog pristupa'</c>
-		<c>remoteaccessservice 'Usmjeravanje i daljinski pristup usluga'</c>
-		<c>remoteaccesssupport 'Routing and Remote Access support'</c>
-		<c>sfc 'System File Check (SFC)'</c>
-		<c>stepsrecorder 'Steps Recorder'</c>
-		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
-		<c>symboliclinks 'Legacy symbolic links'</c>
-		<c>systemrestore 'Vraćanje sustava'</c>
 		<c>tempcache 'Cache i temp datoteke'</c>
-		<c>winre 'Windows oporavak'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
 			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
 			<Feature enabled="no">NetworkDiscovery</Feature>
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
@@ -124,7 +71,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/NAME</Key>
-								<Value>Windows 11 Pro</Value>
+								<Value>Gorstaks 11</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -138,48 +85,10 @@
 		</settings>
 	</Unattended>
 	<Tweaks>
-		<Settings>
-			<TweakGroup name="DesktopTweaks">
-				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
-				<Tweak name="FlightedFeatures\ImmersiveContextMenu">1</Tweak>
-			</TweakGroup>
-			<TweakGroup name="Explorer">
-				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
-				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
-				<Tweak name="Advanced\LaunchTo">1</Tweak>
-				<Tweak name="Advanced\HideFileExt">0</Tweak>
-				<Tweak name="Advanced\HideDrivesWithNoMedia">1</Tweak>
-				<Tweak name="Advanced\Hidden">1</Tweak>
-				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="Privacy">
-				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
-				<Tweak name="System\AllowExperimentation">0</Tweak>
-				<Tweak name="System\AllowLocation">1</Tweak>
-				<Tweak name="DataCollection\AllowTelemetry">3</Tweak>
-				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
-				<Tweak name="{A8804298-2D5F-42E3-9531-9C8C39EB29CE}\Value">Allow</Tweak>
-				<Tweak name="{E5323777-F976-4f5b-9B55-B94699C46E44}\Value">Allow</Tweak>
-				<Tweak name="{2EEF81BE-33FA-4800-9670-1CD474972C3F}\Value">Allow</Tweak>
-				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
-				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="System">
-				<Tweak name="System\EnableLinkedConnections">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="UAC">
-				<Tweak name="System\FilterAdministratorToken">1</Tweak>
-				<Tweak name="System\ConsentPromptBehaviorAdmin">1</Tweak>
-				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="Windows">
-				<Tweak name="Configuration\DisableResetbase">0</Tweak>
-			</TweakGroup>
-		</Settings>
+		<Settings></Settings>
 		<Services>
 			<TweakGroup name="services">
 				<Tweak name="gpsvc\gpsvc">4</Tweak>
-				<Tweak name="wuauserv\wuauserv">2</Tweak>
 			</TweakGroup>
 		</Services>
 		<ExtraServices>

@@ -12,84 +12,9 @@
 		<GUID>{5DDBA092-BDBB-44A9-BB33-B675FAACE463}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
-		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
-		<c>appv 'Application Virtualization (App-V)'</c>
-		<c>assembly.net '.NET assembly cache'</c>
-		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
-		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
-		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
-		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
-		<c>enhancedstorage 'Enhanced Storage'</c>
-		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
-		<c>fciclient 'File Server Resource Manager'</c>
-		<c>help 'Windows Help content'</c>
-		<c>helpsupport 'Help file support (CHM)'</c>
-		<c>homegroup</c>
-		<c>hwsupport_fax 'Fax'</c>
-		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
-		<c>hwsupport_scanner 'Scanner'</c>
-		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
 		<c>hypervguest 'Hyper-V Integration Services'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
-		<c>langime 'Input Method Editor (IME)'</c>
-		<c>langimejp 'Japanese (IME)'</c>
-		<c>langimeko 'Korean (IME)'</c>
-		<c>langimetc 'Chinese Traditional (IME)'</c>
-		<c>lxss 'Windows Subsystem for Linux'</c>
-		<c>mediacodec 'Windows Media Codecs'</c>
-		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
-		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
-		<c>microsoft.asynctextservice 'AsyncTextService'</c>
-		<c>microsoft.creddialoghost 'Credential Dialog'</c>
-		<c>microsoft.ecapp 'Eye Control'</c>
-		<c>microsoft.lockapp 'Windows Default Lock Screen'</c>
-		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
-		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
-		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
-		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
-		<c>microsoft.windows.callingshellapp 'Call'</c>
-		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
-		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
-		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
-		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
-		<c>microsoft.windows.oobenetworkconnectionflow 'Network Connection Flow'</c>
-		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
-		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
-		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
-		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
-		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
-		<c>mobilepc</c>
-		<c>mobilepc_location 'Location notifications'</c>
-		<c>mobilepc_sensors 'Sensors'</c>
-		<c>multipointconnector 'MultiPoint Connector'</c>
-		<c>ncsiuwpapp 'Network Connectivity Status Indicator (NCSI)'</c>
-		<c>peertopeer 'Peer Networking'</c>
-		<c>powershell32 'PowerShell - 32 bit'</c>
-		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
-		<c>printtopdf 'Print to PDF'</c>
-		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
-		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
-		<c>remotefx</c>
-		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
-		<c>rotationmanager 'Auto-Rotation Manager'</c>
-		<c>sensorservice 'Sensors - Service'</c>
-		<c>sharemediacpl 'Share Media Control Panel'</c>
-		<c>smbdirect 'SMB Direct (RDMA)'</c>
-		<c>snippingtool 'Snipping Tool'</c>
-		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
-		<c>stici 'Still Image Class Installer'</c>
-		<c>systemrestore 'System Restore'</c>
-		<c>tabletpc 'Tablet PC'</c>
-		<c>textprediction 'Text prediction'</c>
-		<c>uev 'User Experience Virtualization (UE-V)'</c>
-		<c>wallet 'Wallet Service'</c>
-		<c>wallpapers 'Wallpapers (Themes)'</c>
-		<c>windows.cbspreview 'Windows Barcode Preview'</c>
-		<c>windows.printdialog 'PrintDialog'</c>
-		<c>windowstogo 'Windows To Go'</c>
-		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
-		</RemoveComponents>
+	</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
 			<Feature enabled="no">AppGuard</Feature>
